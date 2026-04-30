@@ -81,3 +81,17 @@ Implement helpers as internal modules/functions:
 - `export_metadata`
 
 Keep public interface flat and simple.
+
+## Run MVP Implementation
+
+Use the bundled script:
+
+```bash
+python3 scripts/generate_game_art.py --input /path/to/request.json --output-root outputs
+```
+
+Script behavior in MVP:
+
+- Generates structured output following `GenerateGameArtOutput`.
+- Creates placeholder files at the expected naming paths.
+- Applies validation and returns explicit `issues`.
