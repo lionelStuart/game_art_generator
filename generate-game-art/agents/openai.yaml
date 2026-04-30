@@ -1,0 +1,3 @@
+display_name: Generate Game Art
+short_description: Generate production-ready game art assets with consistent style, prompt routing, and validation.
+default_prompt: Generate game-ready art assets with a unified style contract and validated output metadata.
